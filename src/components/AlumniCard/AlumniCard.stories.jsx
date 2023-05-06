@@ -12,7 +12,7 @@ export const Primary = {
 };
 
 Primary.args = {
-  name: 'Emily Morgenbesser',
+  name: 'Freja Alejandra',
   image: student,
   prevTitle: 'Former Financial Analyst',
   projectImage: projImg,
