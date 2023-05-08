@@ -1,0 +1,64 @@
+:root {
+  --primary: #272262;
+  --secondary: #ff216e;
+  --white: #ffffff;
+  --gold: #FFBD02;
+}
+
+.person-hero-container {
+  padding: 24px;
+  background-color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: 'Open Sans';
+}
+
+.person-hero-container .person-hero-text-content {
+  margin: 36px;
+  max-width: 980px;
+  display: flex;
+  flex-direction: column;
+}
+.person-hero-container .person-hero-text-content .person-hero-title {
+  font-weight: 700;
+  font-size: 32px;
+  color: var(--secondary);
+  font-family: 'Montserrat';
+}
+.person-hero-container .person-hero-text-content .person-hero-about {
+  color: var(--black);
+  font-size: 16px;
+}
+.person-buttons a {
+  background-color: var(--primary);
+  border: none;
+  color: var(--white);
+  padding: 10px 12px 4px 12px;
+  margin: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 50%;
+  font-size: 24px;
+}
+.person-buttons a:hover {
+  background-color: var(--secondary);
+  color: var(--white);
+}
+.person-hero-image {
+  margin: 36px;
+  border-radius: 50%;
+  width: 25vw !important;
+}
+.person-hero-image img {
+  min-width: 300px;
+  border: 2px solid var(--primary);
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .person-hero-container {
+    flex-wrap: wrap;
+  }
+}

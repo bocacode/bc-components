@@ -1,6 +1,4 @@
 import AlumniCard from './AlumniCard';
-import student from './media/student.jpg';
-import projImg from './media/project.webp';
 
 export default {
   title: 'Alumni Card',
@@ -12,9 +10,9 @@ export const Primary = {
 };
 
 Primary.args = {
-  name: 'Freja Alejandra',
-  image: student,
+  name: 'Freddy Andrews',
+  image: 'https://www.bocacode.com/assets/images/candidates/andy-linnell.jpg',
   prevTitle: 'Former Financial Analyst',
-  projectImage: projImg,
+  projectImage: 'https://bocacode.com/assets/images/candidates/projects/zen-path.webp',
   link: 'https://ingots.web.app/fishing',
 }
