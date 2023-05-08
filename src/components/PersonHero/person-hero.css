@@ -15,7 +15,7 @@
 }
 
 .person-hero-container .person-hero-text-content {
-  margin: 36px;
+  margin: 36px 2em;
   max-width: 980px;
   display: flex;
   flex-direction: column;
@@ -25,6 +25,9 @@
   font-size: 32px;
   color: var(--secondary);
   font-family: 'Montserrat';
+}
+.person-hero-title h1 {
+  margin: 0;
 }
 .person-hero-container .person-hero-text-content .person-hero-about {
   color: var(--black);
@@ -47,11 +50,11 @@
   color: var(--white);
 }
 .person-hero-image {
-  margin: 36px;
-  border-radius: 50%;
-  width: 25vw !important;
+  margin: 36px 2em;
+  max-width: 33vw !important;
 }
 .person-hero-image img {
+  border-radius: 50%;
   min-width: 300px;
   border: 2px solid var(--primary);
   height: auto;
